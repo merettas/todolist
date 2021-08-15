@@ -1,8 +1,6 @@
 /* Include the padding and border in an element's total width and height */
 * {
-    box-sizing:content-box;
-
-    
+    box-sizing:border-box;
   }
   
   /* Remove margins and padding from the list */
@@ -19,7 +17,7 @@
     background: #eee;
     font-size: 18px;
     transition: 0.2s;
-    width: 902px;
+    
   
     /* make the list items unselectable */
     -webkit-user-select: none;
@@ -78,7 +76,7 @@
   .header {
     background-color: #36f4cb;
     padding: 5%;
-    width: 820px;
+    
     color: rgb(0, 0, 0);
     text-align: center;
   }
@@ -103,19 +101,22 @@
   
   /* Style the "Add" button */
   .addBtn {
-    padding: 10px;
-    width: 25%;
-    background: #96f5e5;
+    padding: 30px;
+    width: 30%;
+    background: #ffffff;
     color: rgb(0, 0, 0);
     float: center;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
-    border-radius: 0;
+    border-radius: 2PX;
+    border-width: 2px;
+    border-color: rgb(21, 163, 151);
   }
   
   .addBtn:hover {
     background-color: rgb(112, 244, 248);
   }
   
+   
