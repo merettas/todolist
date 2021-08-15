@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TODO LIST</title>
+  </head>
+
+  <body>
+    
+    
+    <div id="myDIV" class="header">
+      
+        <h1> TO DO LIST</h1>
+        <input type="text" id="myInput" placeholder="add a new task">
+        
+        <span onclick="newElement()" class="addBtn">Add</span>
+    
+      </div>
+      <br>
+      <center>
+      <img src="data:image/png;base64,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">
+      <br>
+      </center>
+      <ul id="myUL">
+        
+      </ul>
+     
+      <script src="main.js"></script>
+
+      
+  </body>
+
+</html>
+
+
+
+
